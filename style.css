@@ -2,6 +2,7 @@
     display:flex;
     flex-direction: column;
 } */
+* {box-sizing: border-box;}
 
 .header {
     font-family: Open sans;
@@ -24,11 +25,10 @@ img {
     height: auto;
 }
 .traits {
-    background-color: #89DEEF;
+    /* background-color: #89DEEF; */
     border: 2px solid;
     display:flex;
     flex-wrap:wrap;
-    flex-direction: column;
 }
 
 .name {
@@ -46,4 +46,18 @@ img {
     display:flex;
     width: 400px;
     flex-direction: column;
+}
+
+.words {
+    /* background-color: #89DEEF; */
+    display:flex;
+    flex-wrap:wrap;
+    list-style-type: none;
+}
+
+li {
+    padding: 2px;
+    background-color: #89DEEF;
+    margin: 2px;
+    border-radius: 5px;
 }
