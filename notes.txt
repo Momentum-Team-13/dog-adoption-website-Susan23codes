@@ -1,0 +1,7 @@
+<ul>
+                            <li>Adult</li>
+                            <li>Male</li>
+                            <li>Medium</li>
+                            <li>Easygoing</li>
+                            <li>Good with cats</li>
+                        </ul>

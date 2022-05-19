@@ -1,0 +1,49 @@
+/* body {
+    display:flex;
+    flex-direction: column;
+} */
+
+.header {
+    font-family: Open sans;
+    border: #004175 ;
+    background-color: #004175 ;
+    color: white;
+    width: 100%;
+    text-align: left;
+    height: 60px;
+    padding: 20px;
+    border-bottom: 3px solid #89DEEF;
+}
+
+.Oswald-font {
+    font-family: Oswald;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+.traits {
+    background-color: #89DEEF;
+    border: 2px solid;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.dog-container {
+  border: 2px solid;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.dog-card {
+    border: 2px solid;
+    display:flex;
+    width: 400px;
+    flex-direction: column;
+}
