@@ -1,7 +1,4 @@
-/* body {
-    display:flex;
-    flex-direction: column;
-} */
+
 * {box-sizing: border-box;}
 
 .header {
@@ -20,36 +17,40 @@
     font-family: Oswald;
 }
 
-img {
-    width: 200px;
-    height: auto;
+a {
+    color: white;
 }
-.traits {
-    /* background-color: #89DEEF; */
-    border: 2px solid;
-    display:flex;
-    flex-wrap:wrap;
+
+.adoption {
+    background-color: #64c6d9;
+}
+
+img {
+    width: 400px;
+    height: auto;
 }
 
 .name {
     font-weight: bold;
+    padding-left: 3px;
 }
 
 .dog-container {
-  border: 2px solid;
   display:flex;
   flex-wrap: wrap;
+  margin: 2px;
 }
 
 .dog-card {
-    border: 2px solid;
+    border: 2px solid blue;
     display:flex;
     width: 400px;
     flex-direction: column;
+    flex: 1 1 auto;
+    margin: 2px;
 }
 
 .words {
-    /* background-color: #89DEEF; */
     display:flex;
     flex-wrap:wrap;
     list-style-type: none;
@@ -59,5 +60,57 @@ li {
     padding: 2px;
     background-color: #89DEEF;
     margin: 2px;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+.footer {
+    display:flex;
+}
+
+.bottom {
+    display:flex;
+    flex: 1 1 auto;
+    font-size: 50px;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    opacity: .7;
+    background-blend-mode: multiply;
+    background-color: #A6A9F0;
+    margin: 3px;
+}
+
+.donate {
+    display: flex;
+    background-image: url("starter_files/images/donate.jpg");
+}
+
+.donate:hover {
+    transition: all .5s ease-in-out;
+    transform: scale(1.05);
+}
+
+.volunteer {
+    display: flex;
+    background-image: url("starter_files/images/volunteer.jpg");
+    border: 1px solid black;
+}
+
+.volunteer:hover {
+    transition: all .5s ease-in-out;
+    transform: scale(1.05);
+}
+
+.location:hover{
+    transition: all .5s ease-in-out;
+    transform: scale(1.05);
+}
+
+.location {
+    display: flex;
+    background-image: url(starter_files/images/location.png);
+    border: 1px solid black;
 }
