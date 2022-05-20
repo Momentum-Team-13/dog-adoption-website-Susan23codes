@@ -17,12 +17,16 @@
     font-family: Oswald;
 }
 
+h2 {
+    font-size: 30px;
+}
 a {
     color: white;
 }
 
 .adoption {
     background-color: #64c6d9;
+    font-size: 20px;
 }
 
 img {
@@ -50,7 +54,7 @@ img {
     margin: 2px;
 }
 
-.words {
+.traits {
     display:flex;
     flex-wrap:wrap;
     list-style-type: none;
@@ -61,6 +65,7 @@ li {
     background-color: #89DEEF;
     margin: 2px;
     border-radius: 10px;
+    border: 2px solid black;
 }
 
 .footer {
