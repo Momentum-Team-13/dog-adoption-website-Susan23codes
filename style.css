@@ -2,7 +2,7 @@
 * {box-sizing: border-box;}
 
 .header {
-    font-family: Open sans;
+    font-family: Open sans, Arial, Helvetica, sans-serif;
     border: #004175 ;
     background-color: #004175 ;
     color: white;
@@ -14,7 +14,7 @@
 }
 
 .Oswald-font {
-    font-family: Oswald;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
 }
 
 h2 {
@@ -30,8 +30,9 @@ a {
 }
 
 img {
-    width: 400px;
+    width: 394px;
     height: auto;
+    border-radius: 2%;
 }
 
 .name {
@@ -47,17 +48,22 @@ img {
 
 .dog-card {
     border: 2px solid blue;
+    border-radius: 2%;
     display:flex;
     width: 400px;
     flex-direction: column;
     flex: 1 1 auto;
     margin: 2px;
+    align-items: center;
 }
 
 .traits {
     display:flex;
-    flex-wrap:wrap;
+    flex-wrap:wrap; 
     list-style-type: none;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    justify-content: center;
 }
 
 li {
@@ -85,37 +91,50 @@ li {
     opacity: .7;
     background-blend-mode: multiply;
     background-color: #A6A9F0;
-    margin: 3px;
+    margin: 12px;
 }
 
 .donate {
     display: flex;
     background-image: url("starter_files/images/donate.jpg");
+    z-index: 1;
 }
 
 .donate:hover {
     transition: all .5s ease-in-out;
     transform: scale(1.05);
+    opacity: 1;
+    z-index: 2;
+    font-size: 60px;
 }
 
 .volunteer {
     display: flex;
     background-image: url("starter_files/images/volunteer.jpg");
     border: 1px solid black;
+    z-index: 1;
 }
 
 .volunteer:hover {
     transition: all .5s ease-in-out;
     transform: scale(1.05);
+    opacity: 1;
+    z-index: 2;
+    font-size: 60px;
 }
 
-.location:hover{
-    transition: all .5s ease-in-out;
-    transform: scale(1.05);
-}
 
 .location {
     display: flex;
     background-image: url(starter_files/images/location.png);
     border: 1px solid black;
+    z-index: 1; 
+    /* Joey showed me the z-index and opacity on the hover to make it darker */
+}
+.location:hover{
+    transition: all .5s ease-in-out;
+    transform: scale(1.05);
+    opacity: 1;
+    z-index: 2;
+    font-size: 60px;
 }
